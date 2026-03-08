@@ -22,6 +22,6 @@ jobs:
     - name: Build binary wheel and source tarball
       run: python -m build
     - name: Publish to PyPI
-      uses: pypa/github-action-pypi-publish@release/v1
+      uses: pypa/github-action-pypi-publish@v1.12.4
       with:
         password: ${{ secrets.PYPI_API_TOKEN }}
