@@ -1,4 +1,4 @@
-# EG4 Monitor Library
+# EG4 Control Library (eg4-ctrl)
 
 A Python library for monitoring EG4 Solar Inverters via the EG4 Monitor website (monitor.eg4electronics.com). This library is specifically useful for remote monitoring of EG4 6000XP inverters and similar models that report to the EG4 web portal.
 
@@ -12,7 +12,7 @@ A Python library for monitoring EG4 Solar Inverters via the EG4 Monitor website 
 ## Installation
 
 ```bash
-pip install eg4-monitor
+pip install eg4-ctrl
 ```
 
 ## Quick Start
